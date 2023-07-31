@@ -107,7 +107,7 @@ Each file provides a piece of the overall analysis and helps to interpret the bi
 ## Output Images Description
 
 1. `PCA.png`: A PCA plot showing the clustering of samples based on their gene expression profiles.
-   ![PCA Plot](example/PCA.png)
+   ![PCA Plot](example/output/PCA.png)
 
 3. `volcano.png`: A volcano plot showing the results of the differential expression analysis. Each point represents a gene. The x-axis is the log2 fold change and the y-axis is the -log10 p-value. Genes with significant differential expression are colored.
 
