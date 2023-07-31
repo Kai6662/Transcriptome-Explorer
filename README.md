@@ -16,7 +16,7 @@ This script requires R (version 3.6 or later) and several R packages. Make sure 
 To get the script on your local machine, clone the repository from GitHub. Open your terminal and run the following command (replace "your-repository-url" with the URL of your GitHub repository):
 
 ```
-git clone your-repository-url
+git clone https://github.com/Kai6662/Transcriptome-Explorer
 ```
 
 This will create a copy of the repository in your local machine.
