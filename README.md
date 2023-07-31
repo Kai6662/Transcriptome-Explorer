@@ -74,6 +74,64 @@ example:
 Rscript Transcriptome-Explorer.R -c NormCounts.xlsx -f samplefile.xlsx -b no  -g "condition,KO,WT" -D  "~ age + condition" -P png -F 0.2 -q 0.6 -T 10 -d norm
 ```
 
+## Output Files Description
+
+1. `upregulated_genes.csv`: A CSV file containing a list of genes that are significantly upregulated under the conditions of your experiment.
+
+2. `downregulated_genes.csv`: A CSV file containing a list of genes that are significantly downregulated under the conditions of your experiment.
+
+3. `all_results.csv`: A CSV file containing the complete results of the differential expression analysis. This includes all tested genes, not just those that are significantly differentially expressed.
+
+4. `sig_genes.csv`: A CSV file containing a list of genes that are significantly differentially expressed, either upregulated or downregulated, under the conditions of your experiment.
+
+5. `go_result_all.csv`: A CSV file containing the results of the Gene Ontology (GO) enrichment analysis for all significantly differentially expressed genes.
+
+6. `go_result_up.csv`: A CSV file containing the results of the GO enrichment analysis for the significantly upregulated genes.
+
+7. `go_result_down.csv`: A CSV file containing the results of the GO enrichment analysis for the significantly downregulated genes.
+
+8. `kegg_result_all.csv`: A CSV file containing the results of the KEGG pathway enrichment analysis for all significantly differentially expressed genes.
+
+9. `kegg_result_up.csv`: A CSV file containing the results of the KEGG pathway enrichment analysis for the significantly upregulated genes.
+
+10. `kegg_result_down.csv`: A CSV file containing the results of the KEGG pathway enrichment analysis for the significantly downregulated genes.
+
+11. `network_all.csv`: A CSV file containing the gene-gene interaction network for all significantly differentially expressed genes.
+
+12. `network_up.csv`: A CSV file containing the gene-gene interaction network for the significantly upregulated genes.
+
+13. `network_down.csv`: A CSV file containing the gene-gene interaction network for the significantly downregulated genes.
+
+Each file provides a piece of the overall analysis and helps to interpret the biological significance of the results.
+
+## Output Images Description
+
+1. `PCA.png`: A PCA plot showing the clustering of samples based on their gene expression profiles.
+   ![PCA Plot](example/PCA.png)
+
+3. `volcano.png`: A volcano plot showing the results of the differential expression analysis. Each point represents a gene. The x-axis is the log2 fold change and the y-axis is the -log10 p-value. Genes with significant differential expression are colored.
+
+4. `topDEGs.png`: A bar plot showing the top differentially expressed genes.
+
+5. `heatmap_sample.png`: A heatmap showing the gene expression profiles of each sample.
+
+6. `heatmap_DEGs.png`: A heatmap showing the expression profiles of the differentially expressed genes.
+
+7. `heatmap_top10_up_down_genes.png`: A heatmap showing the expression profiles of the top 10 upregulated and downregulated genes.
+
+8. `go_result_top10_all.png`, `go_result_top10_up.png`, `go_result_top10_down.png`: Bar plots showing the top 10 enriched GO terms for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+
+9. `go_result_bp_all.png`, `go_result_bp_up.png`, `go_result_bp_down.png`: Bar plots showing the enriched biological process (BP) GO terms for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+
+10. `kegg_result_bar_all.png`, `kegg_result_bar_up.png`, `kegg_result_bar_down.png`: Bar plots showing the enriched KEGG pathways for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+
+11. `kegg_result_bubble_all.png`, `kegg_result_bubble_up.png`, `kegg_result_bubble_down.png`: Bubble plots showing the enriched KEGG pathways for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+
+12. `network_all.png`, `network_up.png`, `network_down.png`: Network plots showing the gene-gene interaction networks for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+
+13. `network_new_all.png`, `network_new_up.png`, `network_new_down.png`: Updated network plots showing the gene-gene interaction networks for all differentially expressed genes, upregulated genes, and downregulated genes, respectively, based on further analysis or filtering.
+
+
 Follow the instructions in the script to input your data and run the analysis.
 
 ## Getting Help
