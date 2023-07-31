@@ -1,4 +1,5 @@
 # Transcriptome-Explorer
+
 A comprehensive RNA-Seq data analysis pipeline
 
 This project encompasses a comprehensive pipeline for analyzing RNA-Seq data, focusing on the identification of differentially expressed genes using DESeq2 and Limma and subsequent functional enrichment analysis. The script takes raw count data as input, normalizes it, and applies rigorous statistical methods to detect differentially expressed genes. Subsequently, it leverages various R packages to conduct functional enrichment, aiming to unravel the biological implications of the differential expression. The script also includes visualization tools to produce clear, interpretable plots of the data and results.
@@ -107,79 +108,125 @@ Each file provides a piece of the overall analysis and helps to interpret the bi
 ## Output Images Description
 
 1. `PCA.png`: A PCA plot showing the clustering of samples based on their gene expression profiles.  
-   ![PCA Plot](example/output/PCA.png)
+   <p align="center">
+     <img src="example/output/PCA.png" width="600" alt="PCA Plot">
+   </p>
 
 2. `volcano.png`: A volcano plot showing the results of the differential expression analysis. Each point represents a gene. The x-axis is the log2 fold change and the y-axis is the -log10 p-value. Genes with significant differential expression are colored.  
-   ![Volcano Plot](example/output/volcano.png)
+   <p align="center">
+     <img src="example/output/volcano.png" width="600" alt="Volcano Plot">
+   </p>
 
 3. `topDEGs.png`: A bar plot showing the top differentially expressed genes.  
-   ![Top DEGs](example/output/topDEGs.png)
+   <p align="center">
+     <img src="example/output/topDEGs.png" width="600" alt="Top DEGs">
+   </p>
 
 4. `heatmap_sample.png`: A heatmap showing the gene expression profiles of each sample.  
-   ![Heatmap Sample](example/output/heatmap_sample.png)
+   <p align="center">
+     <img src="example/output/heatmap_sample.png" width="600" alt="Heatmap Sample">
+   </p>
 
 5. `heatmap_DEGs.png`: A heatmap showing the expression profiles of the differentially expressed genes.  
-   ![Heatmap DEGs](example/output/heatmap_DEGs.png)
+   <p align="center">
+     <img src="example/output/heatmap_DEGs.png" width="600" alt="Heatmap DEGs">
+   </p>
 
 6. `heatmap_top10_up_down_genes.png`: A heatmap showing the expression profiles of the top 10 upregulated and downregulated genes.  
-   ![Heatmap Top 10 Up Down Genes](example/output/heatmap_top10_up_down_genes.png)
+   <p align="center">
+     <img src="example/output/heatmap_top10_up_down_genes.png" width="600" alt="Heatmap Top 10 Up Down Genes">
+   </p>
 
 7. `go_result_top10_all.png`: A bar plot showing the top 10 enriched GO terms for all differentially expressed genes.  
-   ![GO Result Top 10 All](example/output/go_result_top10_all.png)
+   <p align="center">
+     <img src="example/output/go_result_top10_all.png" width="600" alt="GO Result Top 10 All">
+   </p>
 
 8. `go_result_top10_up.png`: A bar plot showing the top 10 enriched GO terms for upregulated genes.  
-   ![GO Result Top 10 Up](example/output/go_result_top10_up.png)
+   <p align="center">
+     <img src="example/output/go_result_top10_up.png" width="600" alt="GO Result Top 10 Up">
+   </p>
 
 9. `go_result_top10_down.png`: A bar plot showing the top 10 enriched GO terms for downregulated genes.  
-   ![GO Result Top 10 Down](example/output/go_result_top10_down.png)
+   <p align="center">
+     <img src="example/output/go_result_top10_down.png" width="600" alt="GO Result Top 10 Down">
+   </p>
 
 10. `go_result_bp_all.png`: A bar plot showing the enriched biological process (BP) GO terms for all differentially expressed genes.  
-   ![GO Result BP All](example/output/go_result_bp_all.png)
+   <p align="center">
+     <img src="example/output/go_result_bp_all.png" width="600" alt="GO Result BP All">
+   </p>
 
 11. `go_result_bp_up.png`: A bar plot showing the enriched BP GO terms for upregulated genes.  
-   ![GO Result BP Up](example/output/go_result_bp_up.png)
+   <p align="center">
+     <img src="example/output/go_result_bp_up.png" width="600" alt="GO Result BP Up">
+   </p>
 
 12. `go_result_bp_down.png`: A bar plot showing the enriched BP GO terms for downregulated genes.  
-   ![GO Result BP Down](example/output/go_result_bp_down.png)
+   <p align="center">
+     <img src="example/output/go_result_bp_down.png" width="600" alt="GO Result BP Down">
+   </p>
 
 13. `kegg_result_bar_all.png`: A bar plot showing the enriched KEGG pathways for all differentially expressed genes.  
-   ![KEGG Result Bar All](example/output/kegg_result_bar_all.png)
+   <p align="center">
+     <img src="example/output/kegg_result_bar_all.png" width="600" alt="KEGG Result Bar All">
+   </p>
 
 14. `kegg_result_bar_up.png`: A bar plot showing the enriched KEGG pathways for upregulated genes.  
-   ![KEGG Result Bar Up](example/output/kegg_result_bar_up.png)
+   <p align="center">
+     <img src="example/output/kegg_result_bar_up.png" width="600" alt="KEGG Result Bar Up">
+   </p>
 
 15. `kegg_result_bar_down.png`: A bar plot showing the enriched KEGG pathways for downregulated genes.  
-   ![KEGG Result Bar Down](example/output/kegg_result_bar_down.png)
+   <p align="center">
+     <img src="example/output/kegg_result_bar_down.png" width="600" alt="KEGG Result Bar Down">
+   </p>
 
 16. `kegg_result_bubble_all.png`: A bubble plot showing the enriched KEGG pathways for all differentially expressed genes.  
-   ![KEGG Result Bubble All](example/output/kegg_result_bubble_all.png)
+   <p align="center">
+     <img src="example/output/kegg_result_bubble_all.png" width="600" alt="KEGG Result Bubble All">
+   </p>
 
 17. `kegg_result_bubble_up.png`: A bubble plot showing the enriched KEGG pathways for upregulated genes.  
-   ![KEGG Result Bubble Up](example/output/kegg_result_bubble_up.png)
+   <p align="center">
+     <img src="example/output/kegg_result_bubble_up.png" width="600" alt="KEGG Result Bubble Up">
+   </p>
 
 18. `kegg_result_bubble_down.png`: A bubble plot showing the enriched KEGG pathways for downregulated genes.  
-   ![KEGG Result Bubble Down](example/output/kegg_result_bubble_down.png)
+   <p align="center">
+     <img src="example/output/kegg_result_bubble_down.png" width="600" alt="KEGG Result Bubble Down">
+   </p>
 
 19. `network_all.png`: A network plot showing the gene-gene interaction networks for all differentially expressed genes.  
-   ![Network All](example/output/network_all.png)
+   <p align="center">
+     <img src="example/output/network_all.png" width="600" alt="Network All">
+   </p>
 
 20. `network_up.png`: A network plot showing the gene-gene interaction networks for upregulated genes.  
-   ![Network Up](example/output/network_up.png)
+   <p align="center">
+     <img src="example/output/network_up.png" width="600" alt="Network Up">
+   </p>
 
 21. `network_down.png`: A network plot showing the gene-gene interaction networks for downregulated genes.  
-   ![Network Down](example/output/network_down.png)
+   <p align="center">
+     <img src="example/output/network_down.png" width="600" alt="Network Down">
+   </p>
 
 22. `network_new_all.png`: An updated network plot showing the gene-gene interaction networks for all differentially expressed genes, based on further analysis or filtering.  
-   ![Network New All](example/output/network_new_all.png)
+   <p align="center">
+     <img src="example/output/network_new_all.png" width="600" alt="Network New All">
+   </p>
 
 23. `network_new_up.png`: An updated network plot showing the gene-gene interaction networks for upregulated genes, based on further analysis or filtering.  
-   ![Network New Up](example/output/network_new_up.png)
+   <p align="center">
+     <img src="example/output/network_new_up.png" width="600" alt="Network New Up">
+   </p>
 
 24. `network_new_down.png`: An updated network plot showing the gene-gene interaction networks for downregulated genes, based on further analysis or filtering.  
-   ![Network New Down](example/output/network_new_down.png)
+   <p align="center">
+     <img src="example/output/network_new_down.png" width="600" alt="Network New Down">
+   </p>
 
-
-Follow the instructions in the script to input your data and run the analysis.
 
 ## Getting Help
 
