@@ -75,6 +75,22 @@ example:
 Rscript Transcriptome-Explorer.R -c NormCounts.xlsx -f samplefile.xlsx -b no  -g "condition,KO,WT" -D  "~ age + condition" -P png -F 0.2 -q 0.6 -T 10 -d norm
 ```
 
+## Input Files
+
+There are three input files:
+
+1. `samplefile.xlsx`: This file is **required**. It should contain the sample information. 
+
+2. `NormCounts.xlsx`: This file is **required**. It should contain the counts matrix. 
+
+3. `background.xlsx`: This file is optional. You can provide this file according to your needs. It should contain the background gene list.
+
+All input files should be in .xlsx format.
+
+The `samplefile.xlsx` and `NormCounts.xlsx` files should contain columns named "ID" and "geneid". The "ID" column should contain Ensembl IDs, and the "geneid" column should contain gene symbols. Aside from "ID" and "geneid", the names of other columns can be customized according to your needs.
+
+Please refer to the files in the `example` directory for examples of the input files.
+
 ## Output Files Description
 
 1. `upregulated_genes.csv`: A CSV file containing a list of genes that are significantly upregulated under the conditions of your experiment.
