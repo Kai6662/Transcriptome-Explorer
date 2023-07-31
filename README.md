@@ -119,7 +119,7 @@ Each file provides a piece of the overall analysis and helps to interpret the bi
 
 3. `topDEGs.png`: A bar plot showing the top differentially expressed genes.  
    <p align="center">
-     <img src="example/output/topDEGs.png" width="600" alt="Top DEGs">
+     <img src="example/output/TopDEGs.png" width="600" alt="Top DEGs">
    </p>
 
 4. `heatmap_sample.png`: A heatmap showing the gene expression profiles of each sample.  
