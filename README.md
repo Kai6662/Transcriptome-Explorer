@@ -71,7 +71,7 @@ Please replace the placeholders (e.g., `CHARACTER`, `NUMERIC`, `INTEGER`, `REFER
 
 example:
 ```
-Rscript EDKO.DESEQ2.R -c GSE188991_NormCounts.xlsx -f samplefile.xlsx -b no  -g "condition,KO,WT" -D  "~ age + condition" -P png -F 0.2 -q 0.6 -T 10 -d norm
+Rscript Transcriptome-Explorer.R -c NormCounts.xlsx -f samplefile.xlsx -b no  -g "condition,KO,WT" -D  "~ age + condition" -P png -F 0.2 -q 0.6 -T 10 -d norm
 ```
 
 Follow the instructions in the script to input your data and run the analysis.
