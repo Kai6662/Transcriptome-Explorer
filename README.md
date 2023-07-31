@@ -106,30 +106,77 @@ Each file provides a piece of the overall analysis and helps to interpret the bi
 
 ## Output Images Description
 
-1. `PCA.png`: A PCA plot showing the clustering of samples based on their gene expression profiles.
+1. `PCA.png`: A PCA plot showing the clustering of samples based on their gene expression profiles.  
    ![PCA Plot](example/output/PCA.png)
 
-3. `volcano.png`: A volcano plot showing the results of the differential expression analysis. Each point represents a gene. The x-axis is the log2 fold change and the y-axis is the -log10 p-value. Genes with significant differential expression are colored.
+2. `volcano.png`: A volcano plot showing the results of the differential expression analysis. Each point represents a gene. The x-axis is the log2 fold change and the y-axis is the -log10 p-value. Genes with significant differential expression are colored.  
+   ![Volcano Plot](example/output/volcano.png)
 
-4. `topDEGs.png`: A bar plot showing the top differentially expressed genes.
+3. `topDEGs.png`: A bar plot showing the top differentially expressed genes.  
+   ![Top DEGs](example/output/topDEGs.png)
 
-5. `heatmap_sample.png`: A heatmap showing the gene expression profiles of each sample.
+4. `heatmap_sample.png`: A heatmap showing the gene expression profiles of each sample.  
+   ![Heatmap Sample](example/output/heatmap_sample.png)
 
-6. `heatmap_DEGs.png`: A heatmap showing the expression profiles of the differentially expressed genes.
+5. `heatmap_DEGs.png`: A heatmap showing the expression profiles of the differentially expressed genes.  
+   ![Heatmap DEGs](example/output/heatmap_DEGs.png)
 
-7. `heatmap_top10_up_down_genes.png`: A heatmap showing the expression profiles of the top 10 upregulated and downregulated genes.
+6. `heatmap_top10_up_down_genes.png`: A heatmap showing the expression profiles of the top 10 upregulated and downregulated genes.  
+   ![Heatmap Top 10 Up Down Genes](example/output/heatmap_top10_up_down_genes.png)
 
-8. `go_result_top10_all.png`, `go_result_top10_up.png`, `go_result_top10_down.png`: Bar plots showing the top 10 enriched GO terms for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+7. `go_result_top10_all.png`: A bar plot showing the top 10 enriched GO terms for all differentially expressed genes.  
+   ![GO Result Top 10 All](example/output/go_result_top10_all.png)
 
-9. `go_result_bp_all.png`, `go_result_bp_up.png`, `go_result_bp_down.png`: Bar plots showing the enriched biological process (BP) GO terms for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+8. `go_result_top10_up.png`: A bar plot showing the top 10 enriched GO terms for upregulated genes.  
+   ![GO Result Top 10 Up](example/output/go_result_top10_up.png)
 
-10. `kegg_result_bar_all.png`, `kegg_result_bar_up.png`, `kegg_result_bar_down.png`: Bar plots showing the enriched KEGG pathways for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+9. `go_result_top10_down.png`: A bar plot showing the top 10 enriched GO terms for downregulated genes.  
+   ![GO Result Top 10 Down](example/output/go_result_top10_down.png)
 
-11. `kegg_result_bubble_all.png`, `kegg_result_bubble_up.png`, `kegg_result_bubble_down.png`: Bubble plots showing the enriched KEGG pathways for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+10. `go_result_bp_all.png`: A bar plot showing the enriched biological process (BP) GO terms for all differentially expressed genes.  
+   ![GO Result BP All](example/output/go_result_bp_all.png)
 
-12. `network_all.png`, `network_up.png`, `network_down.png`: Network plots showing the gene-gene interaction networks for all differentially expressed genes, upregulated genes, and downregulated genes, respectively.
+11. `go_result_bp_up.png`: A bar plot showing the enriched BP GO terms for upregulated genes.  
+   ![GO Result BP Up](example/output/go_result_bp_up.png)
 
-13. `network_new_all.png`, `network_new_up.png`, `network_new_down.png`: Updated network plots showing the gene-gene interaction networks for all differentially expressed genes, upregulated genes, and downregulated genes, respectively, based on further analysis or filtering.
+12. `go_result_bp_down.png`: A bar plot showing the enriched BP GO terms for downregulated genes.  
+   ![GO Result BP Down](example/output/go_result_bp_down.png)
+
+13. `kegg_result_bar_all.png`: A bar plot showing the enriched KEGG pathways for all differentially expressed genes.  
+   ![KEGG Result Bar All](example/output/kegg_result_bar_all.png)
+
+14. `kegg_result_bar_up.png`: A bar plot showing the enriched KEGG pathways for upregulated genes.  
+   ![KEGG Result Bar Up](example/output/kegg_result_bar_up.png)
+
+15. `kegg_result_bar_down.png`: A bar plot showing the enriched KEGG pathways for downregulated genes.  
+   ![KEGG Result Bar Down](example/output/kegg_result_bar_down.png)
+
+16. `kegg_result_bubble_all.png`: A bubble plot showing the enriched KEGG pathways for all differentially expressed genes.  
+   ![KEGG Result Bubble All](example/output/kegg_result_bubble_all.png)
+
+17. `kegg_result_bubble_up.png`: A bubble plot showing the enriched KEGG pathways for upregulated genes.  
+   ![KEGG Result Bubble Up](example/output/kegg_result_bubble_up.png)
+
+18. `kegg_result_bubble_down.png`: A bubble plot showing the enriched KEGG pathways for downregulated genes.  
+   ![KEGG Result Bubble Down](example/output/kegg_result_bubble_down.png)
+
+19. `network_all.png`: A network plot showing the gene-gene interaction networks for all differentially expressed genes.  
+   ![Network All](example/output/network_all.png)
+
+20. `network_up.png`: A network plot showing the gene-gene interaction networks for upregulated genes.  
+   ![Network Up](example/output/network_up.png)
+
+21. `network_down.png`: A network plot showing the gene-gene interaction networks for downregulated genes.  
+   ![Network Down](example/output/network_down.png)
+
+22. `network_new_all.png`: An updated network plot showing the gene-gene interaction networks for all differentially expressed genes, based on further analysis or filtering.  
+   ![Network New All](example/output/network_new_all.png)
+
+23. `network_new_up.png`: An updated network plot showing the gene-gene interaction networks for upregulated genes, based on further analysis or filtering.  
+   ![Network New Up](example/output/network_new_up.png)
+
+24. `network_new_down.png`: An updated network plot showing the gene-gene interaction networks for downregulated genes, based on further analysis or filtering.  
+   ![Network New Down](example/output/network_new_down.png)
 
 
 Follow the instructions in the script to input your data and run the analysis.
@@ -137,4 +184,13 @@ Follow the instructions in the script to input your data and run the analysis.
 ## Getting Help
 
 If you encounter any issues or have any questions, please check the [GitHub Issues page](https://github.com/Kai6662/Transcriptome-Explorer/issues) for this repository. If you don't see your issue, feel free to open a new one. 
+
+## Citation
+
+If you use this workflow in your research, please cite this GitHub repository. Here is an example citation:
+
+K. Cui (2023). Transcriptome-Explorer. GitHub. Available at: https://github.com/Kai6662/Transcriptome-Explorer
+
+
+
 
