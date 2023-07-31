@@ -80,4 +80,3 @@ Follow the instructions in the script to input your data and run the analysis.
 
 If you encounter any issues or have any questions, please check the [GitHub Issues page](your-repository-url/issues) for this repository. If you don't see your issue, feel free to open a new one. 
 
-Make sure to replace "your-repository-url" with the actual URL of your repository. 
