@@ -78,5 +78,5 @@ Follow the instructions in the script to input your data and run the analysis.
 
 ## Getting Help
 
-If you encounter any issues or have any questions, please check the [GitHub Issues page](your-repository-url/issues) for this repository. If you don't see your issue, feel free to open a new one. 
+If you encounter any issues or have any questions, please check the [GitHub Issues page](https://github.com/Kai6662/Transcriptome-Explorer/issues) for this repository. If you don't see your issue, feel free to open a new one. 
 
